@@ -53,10 +53,234 @@
           </div>
         </div>
 
+
+
         <div class="hero-image">
           <img src="/src/assets/tlalocan_plataforma.png" alt="Plataforma petrolera Tlalocan 2099" />
         </div>
+
+        <div class="system-label">
+          <span></span>
+          <p>Sistema Operativo: Tlalocan OS 2.1.9</p>
+          <span></span>
+        </div>
+
+        <div class="feature-grid">
+          <a href="#" class="feature-card feature-large">
+            <!-- Cambia esta ruta por tu imagen de galería/capturas -->
+            <img src="imagen_corredor.png" alt="Galería y capturas del juego" />
+
+            <div class="feature-content">
+              <h3>Galería / Capturas</h3>
+              <p>Explora imágenes del juego</p>
+            </div>
+
+            <span class="feature-corner">↗</span>
+          </a>
+
+          <a href="#" class="feature-card">
+            <!-- Cambia esta ruta por tu imagen de gameplay -->
+            <img src="gun_reference.png" alt="Gameplay de Tlalocan 2099" />
+
+            <div class="feature-content">
+              <h3>Gameplay</h3>
+              <p>Secuencias en tiempo real</p>
+            </div>
+
+            <span class="feature-corner">↗</span>
+          </a>
+
+          <a href="#" class="feature-card">
+            <!-- Cambia esta ruta por tu imagen de enemigos -->
+            <img src="monster_reference.png" alt="Enemigos de Tlalocan 2099" />
+
+            <div class="feature-content">
+              <h3>Enemigos</h3>
+              <p>Entidades desconocidas</p>
+            </div>
+
+            <span class="feature-corner">↗</span>
+          </a>
+
+          <a href="#" class="feature-card">
+            <!-- Cambia esta ruta por tu imagen de ambientes -->
+            <img src="ambience_reference.png" alt="Ambientes de Tlalocan 2099" />
+
+            <div class="feature-content">
+              <h3>Ambientes</h3>
+              <p>Plataformas, instalaciones, la oscuridad</p>
+            </div>
+
+            <span class="feature-corner">↗</span>
+          </a>
+
+          <a href="#" class="feature-card">
+            <!-- Cambia esta ruta por tu imagen de concepto -->
+            <img src="concept_reference.png" alt="Arte conceptual de Tlalocan 2099" />
+
+            <div class="feature-content">
+              <h3>Concepto</h3>
+              <p>Arte y diseño del universo</p>
+            </div>
+
+            <span class="feature-corner">↗</span>
+          </a>
+        </div>
+
+        <section class="trailer-section">
+            <button class="trailer-card" id="openTrailer">
+              <span class="trailer-corner corner-top-left"></span>
+              <span class="trailer-corner corner-top-right"></span>
+              <span class="trailer-corner corner-bottom-left"></span>
+              <span class="trailer-corner corner-bottom-right"></span>
+
+              <span class="play-circle">
+                ▶
+              </span>
+
+              <h2>Video / Tráiler oficial</h2>
+              <p>Mira el avance del juego</p>
+            </button>
+          </section>
+
+          <div class="video-popup" id="videoPopup">
+            <div class="video-modal">
+              <button class="close-video" id="closeTrailer">×</button>
+
+              <video id="trailerVideo" controls>
+                <source src="/videos/trailer.mp4" type="video/mp4" />
+                Tu navegador no soporta video HTML5.
+              </video>
+            </div>
+          </div>
+
+          <section class="about-preview">
+            <div class="about-image">
+              <img src="/src/assets/aboutUs_reference.png" alt="Imagen de referencia de los desarrolladores de Tlalocan 2099" />
+            </div>
+
+            <div class="about-content">
+              <h2>Quiénes somos / Historia de marca</h2>
+
+              <p>
+                <strong>TLALOCAN 2099</strong> es un estudio independiente apasionado por crear
+                experiencias intensas, inmersivas y narrativas que exploran los límites del miedo
+                y la tecnología.
+              </p>
+
+              <p>
+                Nuestra misión es construir mundos originales que conecten con la comunidad de
+                jugadores a través de historias profundas, atmósferas densas y gameplay retador.
+              </p>
+
+              <a href="#" class="about-button">
+                Conoce más sobre nosotros
+                <span>↗</span>
+              </a>
+            </div>
+          </section>
+
+          <section class="products-section" id="productos">
+            <div class="section-header">
+              <h2>Productos</h2>
+
+              <a href="#" class="see-all-link">
+                Ver todos los productos
+                <span>⟶</span>
+              </a>
+            </div>
+
+            <div class="products-grid">
+              <article class="product-card">
+                <div class="product-image">
+                  <!-- Cambia esta ruta por la imagen de la edición digital -->
+                  <img src="/src/assets/tlalocan_portada.png" alt="Edición digital Tlalocan 2099" />
+                </div>
+
+                <div class="product-info">
+                  <h3>Edición Digital</h3>
+                  <p>Juego completo para PC</p>
+
+                  <ul>
+                    <li>Acceso inmediato</li>
+                    <li>Actualizaciones incluidas</li>
+                    <li>Contenido exclusivo digital</li>
+                  </ul>
+
+                  <strong>$39.99 USD</strong>
+
+                  <button
+                    class="buy-button"
+                    data-id="tlalocan-digital"
+                    data-name="Edición Digital"
+                    data-price="39.99"
+                  >
+                    Comprar
+                  </button>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-image">
+                  <!-- Cambia esta ruta por la imagen del artbook -->
+                  <img src="/src/assets/artbook.png" alt="Artbook Tlalocan 2099" />
+                </div>
+
+                <div class="product-info">
+                  <h3>Artbook</h3>
+                  <p>Libro de arte digital</p>
+
+                  <ul>
+                    <li>Más de 120 páginas</li>
+                    <li>Arte conceptual</li>
+                    <li>Bocetos y diseños</li>
+                  </ul>
+
+                  <strong>$19.99 USD</strong>
+
+                  <button
+                    class="buy-button"
+                    data-id="tlalocan-artbook"
+                    data-name="Artbook"
+                    data-price="19.99"
+                  >
+                    Comprar
+                  </button>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <div class="product-image">
+                  <!-- Cambia esta ruta por la imagen del soundtrack -->
+                  <img src="/src/assets/soundtrack.png" alt="Soundtrack Tlalocan 2099" />
+                </div>
+
+                <div class="product-info">
+                  <h3>Soundtrack</h3>
+                  <p>Banda sonora original</p>
+
+                  <ul>
+                    <li>18 pistas originales</li>
+                    <li>Formato MP3 / FLAC</li>
+                    <li>Arte del álbum digital</li>
+                  </ul>
+
+                  <strong>$9.99 USD</strong>
+
+                  <button
+                    class="buy-button"
+                    data-id="tlalocan-soundtrack"
+                    data-name="Soundtrack"
+                    data-price="9.99"
+                  >
+                    Comprar
+                  </button>
+                </div>
+              </article>
+            </div>
+          </section>
       </section>
+      
 </main>
 
 
